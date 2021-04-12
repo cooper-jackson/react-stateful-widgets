@@ -7,19 +7,6 @@
     "test": "cypress open"
   },
   "license": "ISC",
-  "devDependencies": {
-    "cypress": "^5.2.0",
-    "eslint": "^7.9.0",
-    "eslint-plugin-cypress": "^2.11.1",
-    "eslint-plugin-react": "^7.20.6",
-    "less": "^3.12.2",
-    "parcel-bundler": "^1.12.4"
-  },
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/react-stateful-widgets.git"
@@ -29,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/LambdaSchool/react-stateful-widgets/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/react-stateful-widgets#readme"
+  "homepage": "https://github.com/LambdaSchool/react-stateful-widgets#readme",
+  "description": "This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored React components and component state. During the module, you studied what React is, what React components are and how to build them, what state is and how to make a component stateful, and how to update component state with click handlers. In this project you will demonstrate proficiency of these subjects and principles by fleshing out several stateful components.",
+  "main": "index.js",
+  "devDependencies": {
+    "less": "^4.1.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
